@@ -14,19 +14,20 @@ block content
       .then(data => quoteBlock.innerHTML = data);
       // Show result as JSON
       }
-      function otherImages(){
-      const xhr = new XMLHttpRequest();
-      const url = 'https://serpapi.com/search.json?q=Apple&tbm=isch&ijn=0&api_key=983d67447405c7bd01ea550edb53b7fc1968478452da781ac9bfe375ace88b7d';
-      xhr.open('GET', url);
-      xhr.onreadystatechange = function() {
-      if (xhr.readyState == 4 && xhr.status == 200) {
-      xmlDoc = xhr.responseXML;
-      }
-      xhr.send();
-      }
-      }
-      function getImages(items){
-      for(i=0; i<items.length; i++){
-      console.log(items[i]);
-      }
-      }
+      //- function otherImages(){
+      //- const xhr = new XMLHttpRequest();
+      //- const url = 'https://serpapi.com/search.json?q=RonSwanson&tbm=isch&ijn=0&api_key=983d67447405c7bd01ea550edb53b7fc1968478452da781ac9bfe375ace88b7d';
+      //- xhr.open('GET', url);
+      //- xhr.onreadystatechange = function() {
+      //- if (xhr.readyState == 4 && xhr.status == 200) {
+      //- xmlDoc = xhr.responseXML;
+      
+      //- }
+      //- xhr.send();
+      //- }
+      //- }
+      //- function getImages(items){
+      //- for(i=0; i<items.length; i++){
+      //- console.log(items[i]);
+      //- }
+      //- }
