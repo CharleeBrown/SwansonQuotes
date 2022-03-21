@@ -7,11 +7,5 @@ block content
   div(class="row")
       div(class="col-sm-12" style='text-align: center;' id="quote")
         p#quoteBlock(style="font-size:30px;font-family: 'Teko', sans-serif; text-align: center; padding-top:20px;")
-  script.
-      function getQuote(){
-      let quoteBlock = document.getElementById("quoteBlock");
-      fetch('https://ron-swanson-quotes.herokuapp.com/v2/quotes')
-      .then(response => response.json())
-      .then(data => quoteBlock.innerHTML = data);
-      // Show result as JSON
-      }
+  script(src="/javascripts/quotes.js")
+      
