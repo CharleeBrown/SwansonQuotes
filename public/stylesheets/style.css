@@ -11,10 +11,20 @@ a {
 button {
   border-radius: 3px;
   background-color: #8d5b4cff;
-  font-size: 25px !important;
+  font-family: "Lucida Grande", Helvetica, Arial;
+  font-size: 15px !important;
   color: #FFFFFF;
-  width: 200px;
+  width: 150px;
   height: 50px;
+}
+
+#quoteBlock {
+  font-size: 30px;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  color:white;
+  padding-top: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
 }
 
 /*# sourceMappingURL=style.css.map */
